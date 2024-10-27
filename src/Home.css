@@ -1,0 +1,68 @@
+/* Home.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Define a fonte arredondada */
+    background: linear-gradient(to bottom, #b2c5cf, #58a1c5); /* Fundo azul degradê */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Impede que a barra de rolagem apareça */
+}
+
+h1 {
+    text-align: center;
+    color: rgb(24, 21, 21);
+    margin-bottom: 20px;
+    border: 2px solid rgb(24, 41, 116);
+    border-radius: 5px;
+    padding: 10px; /* Adiciona um espaçamento interno para melhorar a aparência */
+    background-color: rgba(129, 217, 233, 0.8)
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 0 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(31, 23, 23);
+    font-size: 30px;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: rgb(15, 95, 122);
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    position: absolute; /* Permite que o logo se mova pela tela */
+    animation: bounce 5s ease infinite; /* Chama a animação de quique */
+    bottom: 250px; /* Define a posição inicial do logo */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%{
+        transform: translateY(5); /* Posição original */
+    }
+    80% {
+        transform: translateY(-80px); /* Move para cima */
+    }
+    60% {
+        transform: translateY(-15px); /* Move um pouco para baixo */
+    }
+}

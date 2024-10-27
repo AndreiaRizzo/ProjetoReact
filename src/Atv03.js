@@ -1,16 +1,16 @@
-import Relogio from "./Relogio";
 
+import Contador from "./Contador";
 import {Link} from "react-router-dom";
 
 
-function Atv01(){
+function Atv03(){
     return (
         <>
-            <h2>Atividade 01</h2>
+            <h2>Atividade 03</h2>
+            <Contador/>
             
-            <Relogio/>
             <Link to="/">Voltar</Link>
         </>
     );
 }
-export default Atv01;
+export default Atv03;
