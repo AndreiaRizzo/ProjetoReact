@@ -6,10 +6,10 @@ import {Link} from "react-router-dom";
 function Atv01(){
     return (
         <>
-            <h2>Atividade 01</h2>
+            <h2 className="titulo-superior">Atividade 01</h2>
             
             <Relogio/>
-            <Link to="/">Voltar</Link>
+            <Link to="/" className="link-inferior">Voltar</Link>
         </>
     );
 }

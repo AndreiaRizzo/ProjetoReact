@@ -47,22 +47,26 @@ a:hover {
     color: rgb(15, 95, 122);
 }
 
-.logo {
-    width: 150px;
-    height: auto;
-    position: absolute; /* Permite que o logo se mova pela tela */
-    animation: bounce 5s ease infinite; /* Chama a animação de quique */
-    bottom: 250px; /* Define a posição inicial do logo */
+.titulo-superior {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 1.5em;  
+    color: #333;
 }
 
-@keyframes bounce {
-    0%, 20%, 50%, 80%{
-        transform: translateY(5); /* Posição original */
-    }
-    80% {
-        transform: translateY(-80px); /* Move para cima */
-    }
-    60% {
-        transform: translateY(-15px); /* Move um pouco para baixo */
-    }
+.link-inferior {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 2em;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Estilos adicionais para o link ao passar o mouse */
+.link-inferior:hover {
+    color: #555;
 }

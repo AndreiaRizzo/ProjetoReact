@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import './App.css';
+import './Relogio.css';
 
 function Relogio() {
   const [horaAtual, setHoraAtual] = useState(new Date());
@@ -18,7 +18,7 @@ function Relogio() {
   const segundos = String(horaAtual.getSeconds()).padStart(2, '0');
 
   return (
-    <div style={{ fontSize: '2em', fontFamily: 'Arial, sans-serif' }}>
+    <div className="Relogio">
       {`${horas}:${minutos}:${segundos}`}
     </div>
   );

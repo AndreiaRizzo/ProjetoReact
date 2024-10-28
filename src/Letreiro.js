@@ -1,8 +1,10 @@
 // src/Letreiro.js
 import React, { useState, useEffect } from 'react';
+import './Letreiro.css';
+
 
 function Letreiro() {
-  const texto = "Conheça a Fatec";
+  const texto = "CONHEÇA A FATEC";
   const [textoExibido, setTextoExibido] = useState("");
   const [index, setIndex] = useState(0);
   const [pausa, setPausa] = useState(false); // controla a pausa no final da frase

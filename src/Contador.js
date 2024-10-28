@@ -2,6 +2,8 @@
 
 import React, { useState } from 'react';
 import './Contador.css';
+import garotoImg from './img/garoto.png';
+import meninaImg from './img/menina.png';
 
 const Contador = () => {
   const [homens, setHomens] = useState(0);
@@ -15,7 +17,7 @@ const Contador = () => {
       <div className="contador">
         <div className="pessoa">
           <img
-            src="https://via.placeholder.com/100x100?text=Homem" // Substitua pelo link da imagem do homem
+            src={garotoImg} // Substitua pelo link da imagem do homem
             alt="Homem"
             className="imagem"
           />
@@ -25,7 +27,7 @@ const Contador = () => {
         </div>
         <div className="pessoa">
           <img
-            src="https://via.placeholder.com/100x100?text=Mulher" // Substitua pelo link da imagem da mulher
+            src={meninaImg} // Substitua pelo link da imagem da mulher
             alt="Mulher"
             className="imagem"
           />
