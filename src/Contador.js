@@ -17,7 +17,7 @@ const Contador = () => {
       <div className="contador">
         <div className="pessoa">
           <img
-            src={garotoImg} // Substitua pelo link da imagem do homem
+            src={garotoImg} 
             alt="Homem"
             className="imagem"
           />
@@ -27,7 +27,7 @@ const Contador = () => {
         </div>
         <div className="pessoa">
           <img
-            src={meninaImg} // Substitua pelo link da imagem da mulher
+            src={meninaImg} 
             alt="Mulher"
             className="imagem"
           />
