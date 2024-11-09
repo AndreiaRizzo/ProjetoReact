@@ -1,0 +1,57 @@
+
+body, html {
+    overflow-y: auto;
+    background: rgb(255, 255, 255);
+
+}
+
+/* Estilo geral para centralizar o conteúdo */
+.atv04-container {
+  /* Define a largura máxima */
+    margin: 0 auto;             /* Centraliza horizontalmente */
+    padding: 20px 20px;         /* Espaçamento interno */
+    
+    background-image: url('img/notas-musicais.avif'); /* Caminho para a imagem */
+    background-size: cover;       /* Faz com que a imagem cubra todo o contêiner */
+    background-position: center;  /* Centraliza a imagem no contêiner */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+
+    min-height: 100vh;           /* Ocupa toda a altura do viewport */
+    display: flex;               /* Para centralizar conteúdo opcionalmente */
+    flex-direction: column;      /* Direção para os elementos filhos */
+    justify-content: center;     /* Centraliza o conteúdo verticalmente */
+}
+
+.galeria {
+    display: flex;                    /* Usando flexbox para dispor os itens */
+    flex-direction: column;            /* Alterando para uma coluna, para os itens ficarem um embaixo do outro */
+    justify-content: flex-start;      /* Alinha os itens no começo */
+    align-items: center;              /* Alinha os itens verticalmente */
+    gap: 20px;                        /* Espaçamento entre os itens */
+    padding: 20px;                    /* Adiciona espaçamento interno para a galeria */
+}
+
+.galeria > div {
+    width: 150px;                     /* Largura do item */
+    height: 100px;                    /* Altura do item */
+    background-color: #D3D3D3;        /* Cor de fundo, você pode alterar */
+    border-radius: 50%;               /* Faz os itens ficarem com formato oval */
+    display: flex;                    /* Usando flexbox dentro dos itens para centralizar o conteúdo */
+    justify-content: center;          /* Centraliza conteúdo horizontalmente */
+    align-items: center;              /* Centraliza conteúdo verticalmente */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombras para um efeito visual */
+    margin-bottom: 20px;              /* Adiciona espaçamento entre os itens na linha */
+}
+
+
+
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+    color: #caa6a6;
+    margin-bottom: 20px;
+    background: rgb(47, 118, 146);
+}
+
+
+
