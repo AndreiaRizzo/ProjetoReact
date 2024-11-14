@@ -3,19 +3,22 @@
     border-radius: 15px;
     margin: 20px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
   }
   
   .composer-container h4 {
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 10px;
+    margin-right: 50px;
+    margin-left: -100px;
   }
   
   .composer-container img {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
-    max-width: 150px;  /* Limita o tamanho da imagem */
+    max-width: 200px;  /* Limita o tamanho da imagem */
     height: auto;
   }
   
@@ -33,7 +36,8 @@
 
 .composer-container ul li {
     font-size: 1rem;
-    text-align: center;
+    text-align: right;
     width: 300px;  /* Ajuste a largura das células */
-    margin: 10px auto;  /* Para centralizar os itens */
+    margin: auto;  /* Para centralizar os itens */
+    margin-left: 20px;
 }

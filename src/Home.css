@@ -9,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden; /* Impede que a barra de rolagem apareça */
+    
 }
 
 h1 {

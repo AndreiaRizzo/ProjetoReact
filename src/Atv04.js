@@ -12,11 +12,13 @@ function Atv04() {
         <>
             < div className="atv04-container">
                 <h2 className="titulo-superior">Atividade 04</h2>
-                <h3>Grandes Compositores clássicos</h3>
-                <Gallery />
+                <h1>Grandes Compositores</h1>
+                
                 <div className="galeria">
+                
                     <TodoList />
                 </div>
+                <Gallery/>
                 <Link to="/" className="link-inferior">Voltar</Link>
             </div >
         </>

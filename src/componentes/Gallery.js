@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import Profile from './Profile';
+import './Gallery.css';
 
 export default function Gallery() {
-    return (
-      <section>
-        <h1>Grande compositores clássicos</h1>
-        <Profile />
-        <Profile />
-        <Profile />
-      </section>
-    );
-  }
+  return (
+    <section className="gallery-container">
+      
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+    </section>
+  );
+}

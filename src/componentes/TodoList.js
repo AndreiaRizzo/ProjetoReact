@@ -15,7 +15,7 @@ const mozart = {
 const vivaldi = {
   name: 'Antonio Vivaldi',
   theme: {
-    background: 'linear-gradient(to right, white, lightblue)',
+    background: 'linear-gradient(to right, pink, lightblue)',
     color: 'black' 
   }
 };
@@ -23,7 +23,7 @@ const vivaldi = {
 const beethoven = {
   name: 'Ludwig van Beethoven',
   theme: {
-    background: 'linear-gradient(to right, white, lightblue)',
+    background: 'linear-gradient(to right, pink, lightblue)',
     color: 'black' 
   }
 };
@@ -40,7 +40,7 @@ export default function TodoList() {
         />
         <ul>
           <li>Compositor Austríaco</li>
-          <li>Nasceu em 27 de janeiro de 1756 e morreu em 5 de dezembro de 1791</li>
+          <li>Nasceu em 27 de janeiro de 1756... Morreu em 5 de dezembro de 1791.</li>
           <li>Compôs várias obras, sendo o responsável pela inclusão do clarinete na orquestra.</li>
         </ul>
       </div>
@@ -53,8 +53,8 @@ export default function TodoList() {
           className="photo"
         />
         <ul>
-          <li>Compositor italiano</li>
-          <li>Nasceu em 04 de março de 1678 e morreu em 28 de julho de 1741</li>
+          <li>Compositor Italiano</li>
+          <li>Nasceu em 04 de março de 1678... Morreu em 28 de julho de 1741.</li>
           <li>Compôs várias obras, incluindo 'As Quatro Estações'.</li>
         </ul>
       </div>
@@ -68,8 +68,8 @@ export default function TodoList() {
         />
         <ul>
           <li>Compositor alemão</li>
-          <li>Nasceu em 17 de dezembro de 1770 e morreu em 26 de março de 1827</li>
-          <li>Compôs várias obras, sendo a 'Nona Sinfonia' a mais conhecida.</li>
+          <li>Nasceu em 17 de dezembro de 1770... Morreu em 26 de março de 1827.</li>
+          <li>Compôs várias obras mesmo depois de ficar surdo, sendo a 'Nona Sinfonia' a mais conhecida.</li>
         </ul>
       </div>
     </>
