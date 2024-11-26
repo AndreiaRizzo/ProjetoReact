@@ -24,8 +24,8 @@ const Contador = () => {
           <h2>Homens: {homens}</h2>
           <button onClick={() => setHomens(homens + 1)}>+</button>
           <button onClick={() => setHomens(homens > 0 ? homens - 1 : 0)}>-</button>
-        </div>
-        <div className="pessoa">
+        
+        
           <img
             src={meninaImg} 
             alt="Mulher"
